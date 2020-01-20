@@ -12,8 +12,11 @@ num_pixels = 16
 # Tempo do sinal em segundos
 signal_time = 2
 
+# Brilho
+brightness = 0.5
+
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, 
-    brightness=1, auto_write=False,
+    brightness=brightness, auto_write=False,
     pixel_order=neopixel.GRB)
 
 pixels.fill((255, 255, 255))
