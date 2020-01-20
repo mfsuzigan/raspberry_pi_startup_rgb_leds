@@ -18,8 +18,4 @@ pixels.show()
 time.sleep(3)
 pixels.fill((0,0,0))
 
-except KeyboardInterrupt:
-    #Apaga todos os leds
-    pixels.fill((0,0,0))
-    pixels.show()
-    GPIO.cleanup()
+GPIO.cleanup()
