@@ -15,9 +15,10 @@ pixels = neopixel.NeoPixel(pixel_pin, num_pixels,
 
 try:
    while True:
-       pixels.fill((255, 255, 255))
-       pixels.show()
-       time.sleep(3)
+        pixels.fill((255, 255, 255))
+        pixels.show()
+        time.sleep(3)
+        pixels.fill((0,0,0))
 
 except KeyboardInterrupt:
     #Apaga todos os leds
