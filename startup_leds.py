@@ -13,7 +13,7 @@ num_pixels = 16
 signal_time = 2
 
 # Brilho
-brightness = 0.5
+brightness = 0.2
 
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, 
     brightness=brightness, auto_write=False,
